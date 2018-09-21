@@ -87,11 +87,15 @@ dependencies {
     implementation 'com.android.support:multidex:1.0.2'
 }
 
+repositories {
+    mavenCentral()
+}
+
 publish {
     userOrg = 'guoyanggit'
     groupId = 'com.guoyanggit'
-    artifactId = 'RecyclerViewBindingAdapter'
+    artifactId = 'EasyMvvm'
     publishVersion = '1.0.1'
-    desc = 'this is RecyclerViewBindingAdapter for android'
-    website = 'https://github.com/GuoYangGit/RecyclerViewBindingAdapter'
+    desc = 'this is EasyMvvm for android'
+    website = 'https://github.com/GuoYangGit/EasyMvvm'
 }
